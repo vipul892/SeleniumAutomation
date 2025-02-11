@@ -36,4 +36,16 @@ public class Test4 {
         System.out.println("Executing Both Smoke and Regression Test");
 
 }
+    @Test(groups="Regression")
+	public void testRegression6() {
+		System.out.println("Executing Regression Test");
+	}
+    @Test(groups="Regression")
+	public void testRegression8() {
+		System.out.println("Executing Regression Test1");
+	}
+    @Test(groups = {"smoke", "regression"})
+    public void testBot5h() {
+        System.out.println("Executing Both Smoke and Regression Test");
+
 }
