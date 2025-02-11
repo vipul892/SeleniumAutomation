@@ -37,4 +37,21 @@ public class Test1 {
 		System.out.println("hiiiiiiii stop");
 	}
 	
+	@Test
+	public void method5()
+	{
+		System.out.println("This is the method Second");
+		Assert.assertTrue(false);
+	}
+	@Test
+	public void method6()
+	{
+		System.out.println("This is the method Third");
+	}
+	
+	@AfterMethod
+	public void afterMethod7()
+	{
+		System.out.println("hiiiiiiii stop");
+	
 }
