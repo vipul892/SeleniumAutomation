@@ -30,5 +30,18 @@ public class Test3 {
 		System.out.println("HIIIIII Fist");
 	
 	}
+	
+	
+}
+@Test
+public void testMethod4() {
+	System.out.println("This is Third TestMethod");
+}
+
+
+@BeforeSuite
+public void BeforeSuite6() {
+	System.out.println("HIIIIII Fist");
+
 }
 
